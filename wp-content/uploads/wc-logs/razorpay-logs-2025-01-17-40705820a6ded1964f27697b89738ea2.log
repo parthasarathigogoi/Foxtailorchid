@@ -1,0 +1,41 @@
+2025-01-17T05:57:49+00:00 INFO Called process_payment with params order_id 2141
+2025-01-17T05:57:49+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 2141
+2025-01-17T05:57:50+00:00 INFO Updating razorpay webhook
+2025-01-17T05:57:51+00:00 INFO getRazorpayPaymentParams 2141
+2025-01-17T05:57:51+00:00 INFO createOrGetRazorpayOrderId 2141 and is1ccCheckout is set to no
+2025-01-17T05:57:51+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 2141 and is_magic_checkout_order is set to no
+2025-01-17T05:57:51+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id2141
+2025-01-17T05:57:51+00:00 INFO Called createRazorpayOrderId with params orderId 2141 and sessionKey razorpay_order_id2141
+2025-01-17T05:57:51+00:00 INFO Called getOrderCreationData with params orderId 2141
+2025-01-17T05:57:51+00:00 INFO Called getOrderCreationData with params orderId 2141 and is1ccOrder is set to no
+2025-01-17T05:57:51+00:00 INFO For order 2141
+2025-01-17T05:57:51+00:00 INFO {"receipt":"2141","amount":15000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"2141"}}
+2025-01-17T05:57:52+00:00 INFO For order session key razorpay_order_id2141
+2025-01-17T05:58:08+00:00 INFO Called check_razorpay_response: wc_order_1cphRKumCajQR
+2025-01-17T05:58:08+00:00 INFO HPOS is enabled and order status: pending
+2025-01-17T05:58:08+00:00 INFO Get order id in check_razorpay_response: orderId 2141
+2025-01-17T05:58:08+00:00 INFO handleErrorCase
+2025-01-17T05:58:08+00:00 INFO getErrorMessage orderId: 2141
+2025-01-17T05:58:08+00:00 INFO returning An error occured. Please contact administrator for assistance
+2025-01-17T05:58:08+00:00 INFO updateOrder orderId: 2141 , razorpayPaymentId:  , success: 
+2025-01-17T05:58:08+00:00 INFO Woocommerce orderId: 2141 processed through callback
+2025-01-17T14:22:59+00:00 INFO Called process_payment with params order_id 2256
+2025-01-17T14:22:59+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 2256
+2025-01-17T14:23:00+00:00 INFO getRazorpayPaymentParams 2256
+2025-01-17T14:23:00+00:00 INFO createOrGetRazorpayOrderId 2256 and is1ccCheckout is set to no
+2025-01-17T14:23:00+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 2256 and is_magic_checkout_order is set to no
+2025-01-17T14:23:00+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id2256
+2025-01-17T14:23:00+00:00 INFO Called createRazorpayOrderId with params orderId 2256 and sessionKey razorpay_order_id2256
+2025-01-17T14:23:00+00:00 INFO Called getOrderCreationData with params orderId 2256
+2025-01-17T14:23:00+00:00 INFO Called getOrderCreationData with params orderId 2256 and is1ccOrder is set to no
+2025-01-17T14:23:00+00:00 INFO For order 2256
+2025-01-17T14:23:00+00:00 INFO {"receipt":"2256","amount":15000,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"2256"}}
+2025-01-17T14:23:00+00:00 INFO For order session key razorpay_order_id2256
+2025-01-17T14:24:57+00:00 INFO Called check_razorpay_response: wc_order_CaEr9DrIdn8iy
+2025-01-17T14:24:57+00:00 INFO HPOS is enabled and order status: pending
+2025-01-17T14:24:57+00:00 INFO Get order id in check_razorpay_response: orderId 2256
+2025-01-17T14:24:57+00:00 INFO handleErrorCase
+2025-01-17T14:24:57+00:00 INFO getErrorMessage orderId: 2256
+2025-01-17T14:24:57+00:00 INFO returning An error occured. Please contact administrator for assistance
+2025-01-17T14:24:57+00:00 INFO updateOrder orderId: 2256 , razorpayPaymentId:  , success: 
+2025-01-17T14:24:58+00:00 INFO Woocommerce orderId: 2256 processed through callback

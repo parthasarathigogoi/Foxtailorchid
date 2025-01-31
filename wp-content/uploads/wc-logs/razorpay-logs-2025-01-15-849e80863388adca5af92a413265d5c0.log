@@ -1,0 +1,24 @@
+2025-01-15T15:01:54+00:00 INFO Updating razorpay webhook
+2025-01-15T15:01:54+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-01-15T15:01:54+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-01-15T15:01:54+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-01-15T15:01:54+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-01-15T15:01:54+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-01-15T15:01:54+00:00 INFO updateAddressSyncCronData:530 - Updating option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2025-01-15T15:01:54+00:00 INFO updateAddressSyncCronData:532 -  Successfully Updated Option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2025-01-15T15:01:54+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-01-15T15:07:18+00:00 INFO Updating razorpay webhook
+2025-01-15T15:07:18+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-01-15T15:07:18+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-01-15T15:07:18+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-01-15T15:07:18+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-01-15T15:07:18+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-01-15T15:07:18+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-01-15T15:25:54+00:00 INFO Trying to create one_cc_address_sync_cron
+2025-01-15T15:25:54+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2025-01-15T15:25:54+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2025-01-15T15:25:54+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2025-01-15T15:25:54+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2025-01-15T15:25:54+00:00 INFO create one_cc_plugin_sync_cron successful
+2025-01-15T23:29:20+00:00 INFO Execute one_cc_plugin_sync_cron successful
+2025-01-15T23:29:20+00:00 ERROR 
